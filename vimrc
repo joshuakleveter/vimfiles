@@ -49,8 +49,18 @@ set laststatus=2                  " Show the status line all the time
 " Useful status information at bottom of screen
 set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
 
-" Or use vividchalk
+" Use industry colorscheme
 colorscheme industry
+
+" Syntastic configuration
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " Tab mappings.
 map <leader>tt :tabnew<cr>
@@ -84,6 +94,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'jelera/vim-javascript-syntax'  " JavaScript Syntax
 Plug 'moll/vim-node'                 " Node.js Syntax
+Plug 'vim-syntastic/syntastic'       " Syntastic
 Plug 'godlygeek/tabular'             " Tabular
 
 call plug#end()
