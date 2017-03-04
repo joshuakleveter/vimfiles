@@ -17,6 +17,8 @@ set backspace=indent,eol,start    " Intuitive backspacing.
 
 set hidden                        " Handle multiple buffers better.
 
+set fileformat=unix               " Set line endings to UNIX
+
 set wildmenu                      " Enhanced command line completion.
 set wildmode=list:longest         " Complete files like a shell.
 
@@ -81,5 +83,8 @@ map <leader>tm :tabmove
 call plug#begin('~/.vim/plugged')
 
 " Use single-quotes for filepaths!
+
+Plug 'jelera/vim-javascript-syntax'
+Plug 'moll/vim-node'
 
 call plug#end()
