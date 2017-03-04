@@ -82,7 +82,8 @@ call plug#begin('~/.vim/plugged')
 
 " Use single-quotes for filepaths!
 
-Plug 'jelera/vim-javascript-syntax'
-Plug 'moll/vim-node'
+Plug 'jelera/vim-javascript-syntax'  " JavaScript Syntax
+Plug 'moll/vim-node'                 " Node.js Syntax
+Plug 'godlygeek/tabular'             " Tabular
 
 call plug#end()
