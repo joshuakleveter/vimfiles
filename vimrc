@@ -92,6 +92,7 @@ call plug#begin('~/.vim/plugged')
 
 " Use single-quotes for filepaths!
 
+Plug 'ctrlpvim/ctrlp.vim'           " CtrlP.vim fuzzy finder
 Plug 'jelera/vim-javascript-syntax'  " JavaScript Syntax
 Plug 'moll/vim-node'                 " Node.js Syntax
 Plug 'vim-syntastic/syntastic'       " Syntastic
