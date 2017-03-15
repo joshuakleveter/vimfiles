@@ -94,6 +94,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'ctrlpvim/ctrlp.vim'            " CtrlP.vim fuzzy finder
 Plug 'jelera/vim-javascript-syntax'  " JavaScript Syntax
+Plug 'heavenshell/vim-jsdoc'         " JSDoc Autogenerator
 Plug 'ahayman/vim-nodejs-complete'   " Node.js Omnifunc Completion
 Plug 'guileen/vim-node-dict'         " Node.js Dictionary
 Plug 'moll/vim-node'                 " Node.js Syntax Highlighting
