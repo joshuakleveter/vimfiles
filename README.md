@@ -15,3 +15,4 @@ Using [Vim-Plug](https://github.com/junegunn/vim-plug) for managing plugins.
 - [Node.js Highlighting](https://github.com/moll/vim-node)
 - [Syntastic](https://github.com/vim-syntastic/syntastic)
 - [Tabular](https://github.com/godlygeek/tabular)
+- [Vim-Vue](https://github.com/posva/vim-vue)
