@@ -94,13 +94,14 @@ call plug#begin('~/.vim/plugged')
 
 " Use single-quotes for filepaths!
 
-Plug 'ctrlpvim/ctrlp.vim'            " CtrlP.vim fuzzy finder
-Plug 'nikvdp/ejs-syntax'             " EJS Syntax
-Plug 'jelera/vim-javascript-syntax'  " JavaScript Syntax
-Plug 'heavenshell/vim-jsdoc'         " JSDoc Autogenerator
-Plug 'guileen/vim-node-dict'         " Node.js Dictionary
-Plug 'moll/vim-node'                 " Node.js Syntax Highlighting
-Plug 'vim-syntastic/syntastic'       " Syntastic
-Plug 'godlygeek/tabular'             " Tabular
+Plug 'ctrlpvim/ctrlp.vim'                     " CtrlP.vim fuzzy finder
+Plug 'nikvdp/ejs-syntax'                      " EJS Syntax
+Plug 'jelera/vim-javascript-syntax'           " JavaScript Syntax
+Plug 'othree/javascript-libraries-syntax.vim' " JavaScript Library Syntax
+Plug 'heavenshell/vim-jsdoc'                  " JSDoc Autogenerator
+Plug 'guileen/vim-node-dict'                  " Node.js Dictionary
+Plug 'moll/vim-node'                          " Node.js Syntax Highlighting
+Plug 'vim-syntastic/syntastic'                " Syntastic
+Plug 'godlygeek/tabular'                      " Tabular
 
 call plug#end()
