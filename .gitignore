@@ -3,3 +3,5 @@ plugged/
 
 # Files to ignore
 **/.netrwhist
+*.swp
+*.swo
