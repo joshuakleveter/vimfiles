@@ -94,6 +94,12 @@ call plug#begin('~/.vim/plugged')
 
 " Use single-quotes for filepaths!
 
+Plug 'autozimu/LanguageClient-neovim', {
+  \ 'branch': 'next',
+  \ 'do': 'bash install.sh',
+  \ }                                         " Vim LSP client
+Plug 'junegunn/fzf'
+Plug 'roxma/nvim-completion-manager'
 Plug 'ctrlpvim/ctrlp.vim'                     " CtrlP.vim fuzzy finder
 Plug 'nikvdp/ejs-syntax'                      " EJS Syntax
 Plug 'jelera/vim-javascript-syntax'           " JavaScript Syntax
