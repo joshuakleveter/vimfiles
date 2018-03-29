@@ -64,6 +64,18 @@ let g:syntastic_check_on_wq = 0
 
 let g:syntastic_javascript_checkers = ['jshint', 'jscs']
 
+" Autostart language servers
+let g:LanguageClient_autoStart = 1
+
+" Configure JavaScript LSP for NeoVim
+let g:LanguageClient_serverCommands = {}
+if executable('javascript-typescript-stdio')
+  let g:LanguageClient_serverCommands.javascript = ['javascript-typescript-stdio']
+else
+  echo "javascript-typescript-stdio not installed!\n"
+  :cq
+endif
+
 " Tab mappings.
 map <leader>tt :tabnew<cr>
 map <leader>te :tabedit
