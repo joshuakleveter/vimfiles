@@ -15,4 +15,7 @@ Using [Vim-Plug](https://github.com/junegunn/vim-plug) for managing plugins.
 - [Node.js Highlighting](https://github.com/moll/vim-node)
 - [Syntastic](https://github.com/vim-syntastic/syntastic)
 - [Tabular](https://github.com/godlygeek/tabular)
+- [Vim-Io](https://github.com/andreimaxim/vim-io)
+  - Support for .io files
 - [Vim-Vue](https://github.com/posva/vim-vue)
+  - Support for .vue files

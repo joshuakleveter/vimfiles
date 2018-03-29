@@ -121,6 +121,7 @@ Plug 'guileen/vim-node-dict'                  " Node.js Dictionary
 Plug 'moll/vim-node'                          " Node.js Syntax Highlighting
 Plug 'vim-syntastic/syntastic'                " Syntastic
 Plug 'godlygeek/tabular'                      " Tabular
+Plug 'andreimaxim/vim-io'                     " Io Language
 Plug 'posva/vim-vue'                          " Vue.js
 
 call plug#end()
