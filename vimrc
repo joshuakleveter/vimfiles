@@ -123,5 +123,6 @@ Plug 'vim-syntastic/syntastic'                " Syntastic
 Plug 'godlygeek/tabular'                      " Tabular
 Plug 'andreimaxim/vim-io'                     " Io Language
 Plug 'posva/vim-vue'                          " Vue.js
+Plug 'hail2u/vim-css3-syntax'                 " CSS syntax
 
 call plug#end()
