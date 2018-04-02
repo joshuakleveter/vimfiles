@@ -124,5 +124,6 @@ Plug 'godlygeek/tabular'                      " Tabular
 Plug 'andreimaxim/vim-io'                     " Io Language
 Plug 'posva/vim-vue'                          " Vue.js
 Plug 'hail2u/vim-css3-syntax'                 " CSS syntax
+Plug 'mattn/emmet-vim'                        " Emmet completion
 
 call plug#end()
