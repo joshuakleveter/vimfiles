@@ -128,5 +128,6 @@ Plug 'mattn/emmet-vim'                        " Emmet completion
 Plug 'tpope/vim-fugitive'                     " Git wrapper
 Plug 'airblade/vim-gitgutter'                 " Git diff gutter
 Plug 'prettier/vim-prettier'                  " Prettier.io
+Plug 'sheerun/vim-polyglot'                   " A whole lotta languages in that thar plugin.
 
 call plug#end()
