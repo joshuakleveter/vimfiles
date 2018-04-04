@@ -125,5 +125,7 @@ Plug 'andreimaxim/vim-io'                     " Io Language
 Plug 'posva/vim-vue'                          " Vue.js
 Plug 'hail2u/vim-css3-syntax'                 " CSS syntax
 Plug 'mattn/emmet-vim'                        " Emmet completion
+Plug 'tpope/vim-fugitive'                     " Git wrapper
+Plug 'airblade/vim-gitgutter'                 " Git diff gutter
 
 call plug#end()
