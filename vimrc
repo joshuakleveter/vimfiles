@@ -52,18 +52,6 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{exists('*CapsLockStatusline')?CapsLo
 " Use industry colorscheme
 colorscheme default
 
-" Syntastic configuration
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
-let g:syntastic_check_on_wq = 0
-
-let g:syntastic_javascript_checkers = ['jshint', 'jscs']
-
 " Autostart language servers
 let g:LanguageClient_autoStart = 1
 
@@ -113,17 +101,10 @@ Plug 'autozimu/LanguageClient-neovim', {
 Plug 'junegunn/fzf'
 Plug 'roxma/nvim-completion-manager'
 Plug 'ctrlpvim/ctrlp.vim'                     " CtrlP.vim fuzzy finder
-Plug 'nikvdp/ejs-syntax'                      " EJS Syntax
-Plug 'jelera/vim-javascript-syntax'           " JavaScript Syntax
-Plug 'othree/javascript-libraries-syntax.vim' " JavaScript Library Syntax
 Plug 'heavenshell/vim-jsdoc'                  " JSDoc Autogenerator
-Plug 'guileen/vim-node-dict'                  " Node.js Dictionary
-Plug 'moll/vim-node'                          " Node.js Syntax Highlighting
-Plug 'vim-syntastic/syntastic'                " Syntastic
 Plug 'godlygeek/tabular'                      " Tabular
 Plug 'andreimaxim/vim-io'                     " Io Language
 Plug 'posva/vim-vue'                          " Vue.js
-Plug 'hail2u/vim-css3-syntax'                 " CSS syntax
 Plug 'mattn/emmet-vim'                        " Emmet completion
 Plug 'tpope/vim-fugitive'                     " Git wrapper
 Plug 'airblade/vim-gitgutter'                 " Git diff gutter
