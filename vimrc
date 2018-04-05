@@ -109,5 +109,11 @@ Plug 'mattn/emmet-vim'                        " Emmet completion
 Plug 'tpope/vim-fugitive'                     " Git wrapper
 Plug 'airblade/vim-gitgutter'                 " Git diff gutter
 Plug 'sheerun/vim-polyglot'                   " A whole lotta languages in that thar plugin.
+Plug 'w0rp/ale'                               " Asynchronous Linting Engine
 
 call plug#end()
+
+" Configure ALE
+let g:ale_fixers = {'javascript': ['prettier_standard']}
+let g:ale_linters = {'javascript': ['']}
+let g:ale_fix_on_save = 1
