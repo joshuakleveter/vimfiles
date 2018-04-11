@@ -114,6 +114,9 @@ Plug 'w0rp/ale'                               " Asynchronous Linting Engine
 call plug#end()
 
 " Configure ALE
+let g:ale_fix_on_save = 1
 let g:ale_fixers = {'javascript': ['prettier_standard']}
 let g:ale_linters = {'javascript': ['']}
-let g:ale_fix_on_save = 1
+let g:ale_pattern_options = {
+      \'.*\.vue$': {'ale_enabled': 0},
+      \}
