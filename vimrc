@@ -111,6 +111,7 @@ Plug 'airblade/vim-gitgutter'                 " Git diff gutter
 Plug 'sheerun/vim-polyglot'                   " A whole lotta languages in that thar plugin.
 Plug 'w0rp/ale'                               " Asynchronous Linting Engine
 Plug 'majutsushi/tagbar'                      " Ctags navigation
+Plug 'ternjs/tern_for_vim'                    " Tern.js
 
 call plug#end()
 
