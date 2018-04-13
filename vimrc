@@ -123,3 +123,6 @@ let g:ale_linters = {'javascript': ['']}
 let g:ale_pattern_options = {
       \'.*\.vue$': {'ale_enabled': 0},
       \}
+
+" Configure Tagbar
+nmap <F8> :TagbarToggle<CR>
