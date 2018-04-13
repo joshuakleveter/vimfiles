@@ -112,6 +112,7 @@ Plug 'sheerun/vim-polyglot'                   " A whole lotta languages in that 
 Plug 'w0rp/ale'                               " Asynchronous Linting Engine
 Plug 'xolox/vim-easytags'                     " Ctags manager
 Plug 'xolox/vim-misc'                         " Loading scripts for vim-easytags
+Plug 'majutsushi/tagbar'                      " Ctags navigation
 
 call plug#end()
 
