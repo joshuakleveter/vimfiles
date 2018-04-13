@@ -122,8 +122,5 @@ let g:ale_pattern_options = {
       \'.*\.vue$': {'ale_enabled': 0},
       \}
 
-" Configure Ctags
-set tags=./tags;,tags;
-
 " Configure Tagbar
 nmap <F8> :TagbarToggle<CR>
