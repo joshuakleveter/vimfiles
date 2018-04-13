@@ -110,6 +110,8 @@ Plug 'tpope/vim-fugitive'                     " Git wrapper
 Plug 'airblade/vim-gitgutter'                 " Git diff gutter
 Plug 'sheerun/vim-polyglot'                   " A whole lotta languages in that thar plugin.
 Plug 'w0rp/ale'                               " Asynchronous Linting Engine
+Plug 'xolox/vim-easytags'                     " Ctags manager
+Plug 'xolox/vim-misc'                         " Loading scripts for vim-easytags
 
 call plug#end()
 
